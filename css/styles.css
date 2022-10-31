@@ -1,0 +1,44 @@
+:root {
+    --white-color: #fff;
+    --accent-color: #FF6C00;
+    --main-text-color: #555;
+    --header-text-color: #303030;
+    --gray-text-color: #9DA4BD;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+    color: var(--main-text-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;  
+    letter-spacing: 0.02em;
+}
+
+.list {
+    list-style: none;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--header-text-color);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+.black-button {
+    color: var(--white-color);
+    background-color: var(--header-text-color);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;         
+}
